@@ -1,0 +1,93 @@
+body, h1, h2, p, label, input, button {
+    margin: 0;
+    padding: 0;
+    }
+    /* Global Styles */
+    body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    }
+    header {
+        display: flex;
+    background-color: #000000;
+    color: #ffffff;
+    align-items: center;
+    padding: 20px;
+    }
+    main {
+    padding: 2rem;
+    text-align: center;
+    }
+    footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    
+    }
+    /* Forms */
+    .signup-form, .signin-form {
+    max-width: 300px;
+    margin: 0 auto;
+    }
+    label {
+    display: block;
+    margin-bottom: 5px;
+    }
+    input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    }
+    button {
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: #121c20;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    }
+    button:hover {
+    background-color: #555;
+    }
+    
+    
+    .logo img{
+        max-height: 60px;
+        padding: 10px;
+
+       
+    }
+    body{
+        background-image: url(https://cdn.logojoy.com/wp-content/uploads/20230629132442/Amazon-logo.jpg);
+    }
+    nav{
+        background-color:rgb(48, 48, 119);
+        padding: 2px;
+        }
+        .sign{
+        display:flex;
+        list-style:none;
+        padding:5px;
+        height: auto;
+        }
+        .sign li{
+        margin-right:20px;
+        }
+        .sign a{
+        color:rgb(255, 255, 255);
+        text-decoration:none;
+        }
+        .webinfo{
+            margin-left: 20px;
+        }
+        .webinfo p{
+            color: orange;
+        }
+        .info img{
+            max-width: 100%;
+            height: auto;
+        }
